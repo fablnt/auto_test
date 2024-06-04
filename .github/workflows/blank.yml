@@ -35,5 +35,6 @@ jobs:
           git add test.txt
           git commit -m "Update test.txt"
           git push
-
+        env: 
+          GITHUB_TOKEN: ${{ secrets.PAT }}
  
